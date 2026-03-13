@@ -67,7 +67,7 @@ jobs:
 
             sudo docker run -d \
               --name myapp \
-              -p 80:3000 \
+              -p 8080:5000 \
               --restart unless-stopped \
               myapp
 
